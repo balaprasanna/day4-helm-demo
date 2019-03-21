@@ -1,0 +1,16 @@
+
+image:
+  repository: balanus/demopythonapp
+  tag: api
+  pullPolicy: IfNotPresent
+
+deployment:
+  containerPort: 6000
+
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 6000

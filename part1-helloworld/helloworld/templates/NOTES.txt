@@ -1,0 +1,5 @@
+1. Get the application details run the following commands:
+
+kubectl get pods {{ .Values.app.name }}
+
+happy helming...
