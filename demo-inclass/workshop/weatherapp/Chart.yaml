@@ -1,0 +1,5 @@
+apiVersion: v1
+appVersion: "1.0"
+description: This is a simple nodejs weather app. Uses , api.openweathermap.org to get weather details
+name: weatherapp
+version: 0.1.2

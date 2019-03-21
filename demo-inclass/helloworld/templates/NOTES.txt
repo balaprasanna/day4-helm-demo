@@ -1,0 +1,5 @@
+1. Get the application URL by running these commands:
+
+This is the hello world chart. You can check the pod info by running this command.
+
+kubectl get pods 

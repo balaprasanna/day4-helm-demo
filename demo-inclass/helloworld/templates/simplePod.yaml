@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: {{ include "helloworld.fullname" . }}
+spec:
+  restartPolicy: "Never"
+  containers:
+  - name: pythonappcontainer
+    image: balanus/demopythonapp:api

@@ -1,0 +1,21 @@
+replicaCount: 1
+
+image:
+  repository: balanus/demopythonapp
+  tag: latest
+  pullPolicy: IfNotPresent
+
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 6000
+
+version: v1
+
+deployment:
+  containerPort: 6000
+
+defautCity: "Japan"
